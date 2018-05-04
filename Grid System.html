@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Forms</h1>
+        <!--form begin-->
+        <form class="form-horizontal" action="/" method="get">
+            <div class="row section-1">
+                <!--name-->
+                <div class="col-md-4 col-sm-4">
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label" for="name">Name</label>
+                        <div class="col-md-9  col-sm-9">
+                            <input class="form-control" type="text" placeholder="Name" id="name">
+                        </div>
+                    </div>
+                    <!--height-->
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label" for="height">Height</label>
+                        <div class="col-md-9 col-sm-9 ">
+                            <input class="form-control " type="number" placeholder="Height" id="height">
+                        </div>
+                    </div>
+                    <!--city-->
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label">City</label>
+                        <div class="col-md-9 col-sm-9 ">
+                            <select class="form-control">
+                                <option>Istanbul</option>
+                                <option>Ankara</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!--surName-->
+                <div class="col-md-4 col-sm-4 ">
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label" for="surname">Surname</label>
+                        <div class="col-md-9 col-sm-9 ">
+                            <input class="form-control " type="text" placeholder="Surname" id="surname">
+                        </div>
+                    </div>
+                    <!--weight-->
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label" for="weight">Weight</label>
+                        <div class="col-md-9 col-sm-9 ">
+                            <input class="form-control " type="number" placeholder="Weight" id="weight">
+                        </div>
+                    </div>
+                    <!--country-->
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label">Country</label>
+                        <div class="col-md-9 col-sm-9 input-group-sm ">
+                            <select class="form-control ">
+                                <option>Turkey</option>
+                                <option>China</option>
+                                <option>Russia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-2">
+                <!--phone-->
+                <div class="col-md-4 col-sm-4">
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label" for="phone">Phone</label>
+                        <div class="col-md-9 col-sm-9 ">
+                            <input class="form-control" type="tel" placeholder="Phone" id="phone">
+                        </div>
+                    </div>
+                    <!--email-->
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3 control-label" for="email">Email</label>
+                        <div class="col-md-9 col-sm-9  ">
+                            <input class="form-control" type="email" placeholder="E-mail" id="email">
+                        </div>
+                    </div>
+                </div>
+                <!--adress-->
+                <div class="col-md-4 col-sm-4">
+                    <div class="row form-group form-group-sm">
+                        <label class="col-md-3 col-sm-3  control-label" for="adress">Adress</label>
+                        <div class="col-md-9 col-sm-9 ">
+                            <textarea class="form-control" rows="5" id="adress"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Submit-->
+            <div class="sperator">
+                <div class="row section-3">
+                    <div class="col-md-4 col-sm-4 col-xs-7">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <button type="reset" class="btn btn-primary">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
